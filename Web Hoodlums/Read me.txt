@@ -1,0 +1,34 @@
+# Interactive Resume Template
+
+## Web Hoodlums Project
+
+Welcome to the Interactive Resume Template, a project by Web Hoodlums! This tool empowers users to effortlessly 
+generate their resumes with various design templates. Users can choose a template, provide input through a 
+user-friendly form, and then download the generated resume.
+
+## Features
+
+- User-friendly form for input data.
+- Multiple design templates to choose from.
+- Resume download functionality.
+
+## Getting Started
+
+To run the project locally, follow these steps:
+
+- Change directory to the project folder:
+cd WebHoodlums
+
+- Run the server:
+python manage.py runserver
+Open your web browser using the link generated to access the Website.
+
+Project Structure
+/templates: Contains HTML templates for the web pages.
+/static: Includes static files such as CSS stylesheets and JavaScript scripts.
+/WebHoodlums: Django application folder containing project configurations and views.
+/app: Django application folder containing project configurations and views.
+
+Dependencies
+Python 3.x
+Django

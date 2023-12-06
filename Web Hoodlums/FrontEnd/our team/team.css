@@ -1,0 +1,495 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+
+div.home{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    position: relative;
+    margin: 2rem auto;
+    width: 1000px;
+    height:100%;
+    background-color: #000000;
+    /* background-color: grey; */
+}
+
+/* Global styles */
+body {
+    font-family: 'Plus Jakarta Sans';
+    background-color: #000000;
+}
+
+/* navigation bar */
+
+div.container-fluid {
+    width: auto;
+    height: 40px;
+    position: relative;
+}
+
+div.nav {
+    width: 100%;
+    position: relative;
+}
+
+div.navcolor {
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: black;
+}
+
+div.loginnav {
+    width: 22%;
+    height: 20px;
+    left: 3%;
+    top: 31px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 9px;
+    display: inline-flex;
+}
+
+div.login-element{
+    width: 110px;
+    height: 20px;
+    position: relative;
+}
+
+div.point{
+    width: 5px;
+    height: 5px;
+    left: 0px;
+    top: 10px;
+    position: absolute;
+    background: white;
+    border-radius: 9999px;
+}
+
+div.item{
+    left: 10px;
+    top: 0px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+div.item1{
+    left: 0px;
+    top: 0px;
+    width: 150px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+div.point1{
+    width: 5px;
+    height: 5px;
+    left: 140px;
+    top: 10px;
+    position: absolute;
+    background: white;
+    border-radius: 9999px;
+}
+
+div.item2{
+    left: 150px;
+    top: 0px;
+    position: absolute;
+    color: #1296E0;
+    font-size: 16px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+div.item:hover{
+    color:#1296E0;
+    font-size: 15px;
+}
+
+div.navigation{
+    width: 500px;
+    height: auto;
+    left: 40%;
+    top: 31px;
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 54px;
+    display: inline-flex;
+}
+
+div.home-element{
+    width: 70px;
+    height: 20px;
+    position: relative;
+}
+
+div.itemnav{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 9px;
+    display: inline-flex;
+}
+
+div.about-element{
+    width: 70px;
+    height: 20px;
+    position: relative;
+}
+
+div.members-element{
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+div.contact-element{
+    width: 30px;
+    height: 20px;
+    position: relative;
+}
+
+/* top section */
+
+div.top-section{
+    width:130%;
+    height:665px;
+    margin-top:5%;
+    margin-left: -15%;
+    margin-right: 10%;
+    background-image: url("images/image.png");
+}
+
+h1.w{
+    margin-left: 35%;
+    margin-top: 12%;
+    font-size: 80px;
+    color: black;
+}
+
+h1.h{
+    margin-left: 48%;
+    margin-top: -6%;
+    font-size: 95px;
+    color: white;
+}
+
+h1.h1{
+    margin-left: 28%;
+    margin-top: -8%;
+    font-size: 95px;
+    color: white;
+}
+
+/* About section */
+
+div.container-fluid1{
+    height:auto;
+    width: 100%;;
+}
+
+div.head{
+    font-size: 10px;
+    color: white;
+    position: relative;
+    left: 6.5%;
+    margin-top:3%;
+    margin-bottom: -1%;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem auto;
+    height: 300px;
+}
+
+div.rectangle {
+    height: 209px;
+    border-radius: 14px;
+    border: 1px solid #ccc;
+    content: '\F0068';
+    position: relative;
+}
+
+div.rectangle:hover {
+    border: 1px solid #777;
+}
+
+div.rectangle img {
+    width: 100%;
+    height: auto;
+}
+
+div.heading {
+    position: absolute;
+    margin: 2rem auto;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: white;
+}
+
+
+.responsive{
+    padding: 0 10px ;
+    float: left;
+    width: 29.99999%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.image-container {
+    position: relative;
+    width:100%;
+    display: inline-block;
+    filter:grayscale(100%)
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-info {
+    position: absolute;
+    border-radius: 14px;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    box-sizing: border-box;
+    transition: height 0.3s;
+    overflow: hidden;
+    height: 50px;
+}
+h4{
+    margin-top: 4.5%;
+}
+
+
+.image-container:hover .text-info {
+    height: 80%;
+}
+
+/* members section */
+
+div.members{
+    height:auto;
+    width:100%;
+}
+
+div.heading1{
+    color: #1296E0;
+    font-size: 36px;
+    font-family: Plus Jakarta Sans;
+    position: relative;
+    text-align: center;
+    width: 800px;
+    left:40%;
+    height: 50px
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 900px;
+    margin: auto;
+    background-color:#ccc;
+    border-radius:20px;
+}
+
+.circle
+{
+    background-position: 55%;
+    background-size: contain;
+    position: relative;
+    bottom: 25px;
+    left: -20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10%;
+    padding: 10%;
+    height: 4%;
+    width: 4%;
+    border-radius: 50%;
+}
+
+div#member1{
+    background-image: url("images/Shashank.jpg");
+}
+/* footer section */
+
+.container1 {
+    position: relative;
+    margin-top:  3%;
+    width:130%;
+    height: 530px;
+    margin-top:5%;
+    margin-left: -15%;
+    margin-right: 10%;
+    background-color: #101010;
+    overflow: hidden;
+}
+
+.explore
+{
+    position: absolute;
+    left: 65%;
+    top: 10%;
+}
+
+.explore-section,
+.name-section,
+.social-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.explore-section {
+    position: absolute;
+    left: 80%;
+    top: 30%;
+}
+
+.name-section {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    gap: 4px;
+}
+
+.social-section {
+    position: absolute;
+    left: 90%;
+    top: 10%;
+    max-width: 15%; /* Adjust the max-width as needed */
+}
+
+.explore-text,
+.social-text {
+    color: rgba(255, 255, 255, 0.48);
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.nav-links,
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.nav-link,
+.social-link {
+    width: 55px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgba(255, 255, 255, 0.48);
+    font-size: 20px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.name-text {
+    width: 433px;
+    color: white;
+    font-size: 54px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+
+.email-text {
+    color: #1296E0;
+    font-size: 50px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    word-wrap: break-word;
+    position: relative;
+    top: 60px;
+}
+
+.copyright{
+    position: absolute;
+    left: 0%;
+    top: 100px;
+    color: rgba(255, 255, 255, 0.48);
+    font-size: 20px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+
+.copyright-text {
+    margin: auto;
+    position: absolute;
+    top: 240px;
+    color: rgba(255, 255, 255, 0.48);
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.copyright-texts {
+    margin: auto;
+    position: absolute;
+    bottom: 35px;
+    left: 34%;
+    color: rgba(255, 255, 255, 0.48);
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    word-wrap: break-word;
+}
