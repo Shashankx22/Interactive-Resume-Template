@@ -9,9 +9,6 @@ cd WebHoodlums
 python manage.py runserver
 Open your web browser using the link generated to access the Website.
 
-
-# Interactive-Resume-Template
-
 # Interactive-Resume-Template
 
 
