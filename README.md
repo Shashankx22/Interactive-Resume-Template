@@ -12,7 +12,6 @@ Open your web browser using the link generated to access the Website.
 
 # Interactive-Resume-Template
 
-
 Project Title: Interactive Resume Template
 
 Team: Web Hoodlums
