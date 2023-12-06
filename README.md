@@ -12,7 +12,7 @@ Contributors:
 
 Faza Ulfath (Captain)
 Sarika M N
-Vaishnavi Krishnananda Shenvi
+Vaishnavi Krishnanand Shenvi
 Shashank B R
 
 Project Description:
