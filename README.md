@@ -10,10 +10,10 @@ Team: Web Hoodlums
 Contributors:
 
 
-Faza Ulfath (Captain)
-Sarika M N
+Faza Ulfath (Captain),
+Shashank B R,
+Sarika M N,
 Vaishnavi Krishnanand Shenvi
-Shashank B R
 
 Project Description:
 
