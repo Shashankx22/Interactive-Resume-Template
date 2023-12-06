@@ -9,6 +9,7 @@ cd WebHoodlums
 python manage.py runserver
 Open your web browser using the link generated to access the Website.
 
+
 # Interactive-Resume-Template
 
 
@@ -60,4 +61,4 @@ Tech Stack:
 The project utilizes cutting-edge web technologies such as HTML5, CSS3, JavaScript, and potentially integrates with backend technologies for enhanced functionality.
 
 Conclusion:
-The Interactive Resume Template developed by Team Web Hoodlums is not just a document; it's an experience. With a perfect blend of creativity, functionality, and modern design, this project aims to redefine how individuals present themselves in the digital age. Whether you are a seasoned professional or just starting your career, our interactive resume template provides a unique and effective way to leave a lasting impression on potential employers.
+The Interactive Resume Template developed by Team Web Hoodlums is not just a document, it's an experience. With a perfect blend of creativity, functionality, and modern design, this project aims to redefine how individuals present themselves in the Digital age. Whether you are a seasoned professional or just starting your career, our interactive resume template provides a unique and effective way to leave a lasting impression on potential employers.
